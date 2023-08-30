@@ -1,17 +1,20 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- 
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #001a4d;
+  color:white;
 }
-
+.container {
+ /* width:100%;
+ margin:1em auto; */
+}
 .site-container {
-  min-height: 100;
+  min-height: 100vh;
 }
 
 main {
-  padding:1rem;
+ flex: 1;
+ margin: 1rem;
+ align-items: center;
 }
