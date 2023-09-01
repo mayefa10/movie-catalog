@@ -2,19 +2,82 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
-  background-color: #001a4d;
-  color:white;
+  background-color: #f2f2f2;
+  color: white;
+  font-weight: 40px;
 }
+
 .container {
- /* width:100%;
+  /* width:100%;
  margin:1em auto; */
 }
+
 .site-container {
   min-height: 100vh;
 }
 
 main {
- flex: 1;
- margin: 1rem;
- align-items: center;
+  flex: 1;
+  margin: 1rem;
+  align-items: center;
+}
+
+.card {
+  display: grid;
+  justify-content: space-between;
+  gap: 50px;
+  grid-template-columns: 200px 200px 200px 200px;
+  background-color: transparent;
+  border: none;
+}
+
+.title {
+  text-align: center;
+  font-size: medium;
+  margin: 5%;
+
+}
+
+.title-popular {
+  margin: 2rem 0;
+}
+.title-movie{
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.icon-nav {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 20%;
+}
+
+.icon-popular {
+  color: rgb(220, 25, 25);
+  width: 5%;
+}
+.icon-movie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 2px;
+}
+
+.card-body-popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+  margin: 2px;
 }
